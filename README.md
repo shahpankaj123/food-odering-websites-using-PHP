@@ -52,4 +52,4 @@ This project is licensed under the [MIT License](LICENSE). Feel free to modify a
 
 ## Contact
 
-For any inquiries or support, please email us at [project@example.com](mailto:project@example.com).
+For any inquiries or support, please email us at [aaryanshah615@gmail.com]
