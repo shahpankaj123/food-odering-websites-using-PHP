@@ -29,12 +29,12 @@ if(isset($_SESSION['username']))
             <br><br>
 
             <!-- Login Form Starts HEre -->
-            <form action="" method="POST" class="text-center">
+            <form action="" method="POST" class="text-center" name="myform" onsubmit="return validateform()">
             Username: <br>
-            <input type="text" name="username" placeholder="Enter Username" required><br><br>
+            <input type="text" name="username" placeholder="Enter Username" required><br><div id="error1" style="color:red; font-size:12px;"></div><br>
 
             Password: <br>
-            <input type="password" name="password" placeholder="Enter Password" required><br><br>
+            <input type="password" name="password" placeholder="Enter Password" required><br><div id="error2" style="color:red; font-size:12px;"></div><br>
 
             <input type="submit" name="submit" value="Login" class="btn-primary">
             <br><br>
@@ -45,6 +45,8 @@ if(isset($_SESSION['username']))
         </div>
 
     </body>
+    <script src="validate.js">
+    </script>
 </html>
 
 <?php 
